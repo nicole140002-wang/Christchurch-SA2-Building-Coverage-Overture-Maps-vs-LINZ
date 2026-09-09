@@ -31,7 +31,7 @@ These are selected case observations, not a citywide accuracy assessment. The pr
 
 ## Local case study
 
-![Experience Builder local case-study page with paired aerial imagery](figures/local_case_study_page.png)
+![Experience Builder local case-study page with paired aerial imagery](images/Local Case Study.png)
 
 *Case-study page preview showing the navigation and paired imagery presentation. Detailed evidence and interpretations follow below.*
 
@@ -47,11 +47,11 @@ The same building dataset versions are overlaid on both imagery dates. The dates
 
 | 2020–2021 aerial imagery | 2025 aerial imagery |
 |---|---|
-| ![Earlier imagery showing vacant sites and construction](figures/case01_development_2020_2021.png) | ![Later imagery showing completed residential development](figures/case01_development_2025.png) |
+| ![Earlier imagery showing vacant sites and construction](images/case01_development_2020_2021.png) | ![Later imagery showing completed residential development](images/case01_development_2025.png) |
 
 Several vacant or developing sites in the earlier image contain completed buildings by 2025. The central large building was already partly constructed in the earlier image, so it should not be classified as wholly absent at that time.
 
-![Exclusive and shared building coverage over the earlier aerial imagery](figures/case01_coverage_overlay.png)
+![Exclusive and shared building coverage over the earlier aerial imagery](images/case01_coverage_overlay.png)
 
 *Coverage overlay on 2020–2021 imagery: blue = Overture only; pink = LINZ only; light grey = shared coverage. Colours indicate geometric coverage classes, not confirmed construction or demolition.*
 
