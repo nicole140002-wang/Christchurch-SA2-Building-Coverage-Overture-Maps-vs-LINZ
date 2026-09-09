@@ -56,3 +56,38 @@ Several vacant or developing sites in the earlier image contain completed buildi
 *Coverage overlay on 2020–2021 imagery: blue = Overture only; pink = LINZ only; light grey = shared coverage. Colours indicate geometric coverage classes, not confirmed construction or demolition.*
 
 Clusters of blue footprints correspond to several of the subsequently developed locations. Together, the imagery and overlay support data currency as an explanation for part of the SA2 coverage gap; its contribution has not been quantified.
+
+### Case 2 — Roof coverage differences
+
+| 2020–2021 aerial imagery | 2025 aerial imagery |
+|---|---|
+| ![Large building outlines over earlier imagery](images/case02_roof_coverage_2020_2021.png) | ![Large building outlines over later imagery](images/case02_roof_coverage_2025.png) |
+
+*Red = LINZ; green = Overture. Both are the original full building outlines, not the exclusive-area results.*
+
+The roof projection on the right and the small courtyard roof are visible in both periods. LINZ includes these sections while the compared Overture outline does not. This supports a local difference in roof coverage or mapping scope rather than construction between the image dates. Better roof coverage in this example does not establish overall dataset accuracy.
+
+### Case 3 — Outline alignment and shape
+
+| 2020–2021 aerial imagery | 2025 aerial imagery |
+|---|---|
+| ![Four existing buildings with differing outlines on earlier imagery](images/case03_outline_alignment_shape_2020_2021.png) | ![The same building group and outlines on later imagery](images/case03_outline_alignment_shape_2025.png) |
+
+*Red = LINZ; green = Overture. Screenshots show corresponding locations; they are visual comparisons, not registered measurement images.*
+
+All four buildings are visible in both periods. The outlines differ in position and corner configuration, and a simple translation would not explain every difference. Some green outline sections more closely follow visible roof turns. Image viewing geometry and mapping conventions remain possible contributors; these screenshots alone cannot assign a definitive cause.
+
+Pure translation preserves polygon area but reduces spatial overlap. This distinguishes local alignment disagreement from the large net coverage increase associated with newly developed areas.
+
+**Imagery credits:** Environment Canterbury; 2020–2021 acquisition by Landpro Ltd and 2025 acquisition by Aerial Surveys. Imagery accessed via LINZ Data Service under CC BY 4.0. Images are cropped, with building overlays where shown. 
+
+## Reproducibility and scope
+
+This repository documents a desktop GIS workflow. It does not yet contain an executable end-to-end pipeline, the QGIS project or the original analysis layers. The ranking file is transcribed from the displayed chart, not independently recalculated from source geometry. Large source datasets and imagery are excluded.
+
+Before interpreting the published citywide values as union-based footprint coverage, verify that overlapping buildings were not counted twice. The local case study explicitly uses separate dissolves before overlay. See the quality checks for reconciliation with the original SA2 results.
+
+## Data rights
+
+Third-party datasets retain their original licences. Imagery source and modification credits are provided in the source documentation. No blanket licence is applied to the underlying datasets.
+
